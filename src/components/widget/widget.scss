@@ -1,0 +1,104 @@
+.widget{
+    // display: flex;
+    // justify-content: space-between;
+    flex: 1;
+    padding: 10px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(114, 113, 113, 0.47);
+    border-radius: 10px;
+    height: 95px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+
+    .booking{
+        font-size: 50px;
+        position: absolute;
+        top: -20px;
+        left: 2px;
+        color: white;
+        background-color: black;
+        border-radius: 10%;
+        
+    }
+
+    .user{
+        font-size: 50px;
+        position: absolute;
+        top: -20px;
+        left: 2px;
+        color: white;
+        background-color: #E93B77;
+        border-radius: 10%;
+    }
+
+    .revenue{
+        font-size: 50px;
+        position: absolute;
+        top: -20px;
+        left: 2px;
+        color: white;
+        background-color: #31bb38;
+        border-radius: 10%;
+
+    }
+
+    .follower{
+        font-size: 50px;
+        position: absolute;
+        top: -20px;
+        left: 2px;
+        color: white;
+        background-color: #1E78E9;
+        border-radius: 10%;
+
+
+    }
+
+    .title{
+        display: flex;
+        justify-content: end;
+        padding: 5px;
+        color: gray;
+        font-size: medium;
+        // position: sticky;
+    }
+
+    .counter{
+        // position: sticky;
+        display: flex;
+        justify-content: end;
+        padding: 4px;
+        font-size: 25px;
+        font-weight: bolder;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .hr{
+        width: 102%;        
+        border: 0.1px solid rgb(221, 221, 221);
+        
+    }
+
+
+    .percentage{
+        
+        display: flex;
+        align-items: center;
+        margin: 6px;
+    }
+
+    .text{
+
+        color: rgb(8, 182, 8);
+        font-weight: bolder;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .sentence{
+        
+        padding: 5px;
+        color: gray;
+        font-size: large;
+    }
+}
+

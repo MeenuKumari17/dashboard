@@ -1,0 +1,61 @@
+.tableCell{
+    background-color: rgb(228, 225, 225);
+}
+
+.number{
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #38BDF8;
+
+}
+
+.name{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bill{
+    color: #10B981;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+
+
+
+.color{
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+
+    &.Approved{
+        background-color: #D1FAE5;
+        color: #059669;
+        
+    }
+
+    &.Pending{
+        background-color: #F1F5F9;
+        color: #64748B;
+    }
+
+    &.Refunded{
+        background-color: #FEF3C7;
+        color: #D97706;
+    }
+}
+
+.flag{
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    .image{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+}

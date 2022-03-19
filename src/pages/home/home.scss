@@ -1,0 +1,45 @@
+.home{
+    display: flex;
+    
+    
+
+    .homeContainer{
+        
+        flex: 5;
+
+        .widgets, .charts, .listContainer {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+            
+        }
+
+        .charts{
+            padding: 5px 20px;
+        }
+
+        .listContainer{
+            
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(114, 113, 113, 0.47);
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .listTitle{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bold;
+            margin-bottom: 15px;
+            font-size: large;
+            color: gray;
+            
+        }
+
+        .table{
+            margin-top: 10px;
+            width: 118%;
+            text-align: center;
+            
+        }
+    }
+}
