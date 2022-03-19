@@ -8,6 +8,8 @@ import Chart from '../../components/chart/Chart';
 import Table from '../../components/table/Table';
 
 
+
+
 const Home = () => {
   return (
     <div className='home'>
@@ -21,8 +23,8 @@ const Home = () => {
             <Widget type="follower"/>
           </div>
           <div className="listContainer">
-            <div className="listTitle">All Orders 442 
-            <Table className="table"/>
+            <div className="listTitle">All Orders 442
+            <Table className="table" />
             </div>
           </div>
           <div className="charts">
